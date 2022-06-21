@@ -8,4 +8,6 @@
     <string name="radiobutton_main_1">RadioButton</string>
     <string name="radiobutton_main_2">RadioButton</string>
     <string name="togglebutton_main">ToggleButton</string>
+    <string name="textview_second">Input U Name</string>
+    <string name="hint_second_page">Enter your name</string>
 </resources>

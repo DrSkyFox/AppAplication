@@ -12,10 +12,12 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
         <TextView
+
                 android:text="@string/input_text"
                 android:gravity="center"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/textView"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
                 android:textSize="24sp"
                 tools:layout_editor_absoluteX="38dp"
                 tools:ignore="MissingConstraints"/>

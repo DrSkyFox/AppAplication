@@ -5,7 +5,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".MainActivity">
+        tools:context=".ui.MainActivity">
 
     <LinearLayout
             android:layout_width="match_parent"
@@ -90,7 +90,7 @@
                 android:layout_gravity="center"
                 android:layout_width="334dp"
                 android:layout_height="50dp"
-                android:id="@+id/button" tools:layout_editor_absoluteY="656dp"
+                android:id="@+id/buttonCalc" tools:layout_editor_absoluteY="656dp"
                 android:textSize="24sp"
                 android:background="#592B3A"
                 android:layout_marginTop="10dp"

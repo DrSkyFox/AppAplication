@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Hi, dude !</string>
     <string name="input_text">Input Text:</string>
-    <string name="press_to_be_the_best">Press to be The Best</string>
+    <string name="press_to_be_the_best">To CalculatorActivity</string>
     <string name="toggle">Toggle</string>
     <string name="lighting_switch">lighting switch</string>
     <string name="checkbox_main">CheckBox</string>
@@ -31,4 +31,5 @@
     <string name="key_doCalc">calculate</string>
     <string name="key_doClear">clear input</string>
     <string name="calcSomething">calc something</string>
+    <string name="calculate">calculate</string>
 </resources>

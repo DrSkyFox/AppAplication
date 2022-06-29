@@ -10,13 +10,13 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.AppAplication">
         <activity
-                android:name=".CalculatorActivity"
+                android:name=".ui.CalculatorActivity"
                 android:exported="true"/>
         <activity
-                android:name=".SecondPageActivity"
+                android:name=".ui.SecondPageActivity"
                 android:exported="true"/>
         <activity
-                android:name=".MainActivity"
+                android:name=".ui.MainActivity"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

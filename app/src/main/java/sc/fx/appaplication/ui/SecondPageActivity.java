@@ -1,17 +1,14 @@
-package sc.fx.appaplication;
+package sc.fx.appaplication.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import sc.fx.appaplication.R;
 
-public class CalculatorActivity extends AppCompatActivity {
+public class SecondPageActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calculator);
+        setContentView(R.layout.second_page);
     }
-
-
-
-
 }

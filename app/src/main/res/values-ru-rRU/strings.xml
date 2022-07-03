@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Привет</string>
+    <string name="input_text">Введите текст</string>
+    <string name="press_to_be_the_best">К калькулятору</string>
+    <string name="toggle">Тугли:)</string>
+    <string name="lighting_switch">Молнейносный свитч)</string>
+    <string name="checkbox_main">Коробчка с чеком</string>
+    <string name="radiobutton_main_1">Радио-батон</string>
+    <string name="radiobutton_main_2">Радио-батон</string>
+    <string name="togglebutton_main">Тугли-батон</string>
+    <string name="textview_second">Введите свое имя</string>
+    <string name="hint_second_page">Enter your name</string>
+
+    <string name="key_1">Один</string>
+    <string name="key_2">Два</string>
+    <string name="key_3">Три</string>
+    <string name="key_4">Четыре</string>
+    <string name="key_5">Пять</string>
+    <string name="key_6">6</string>
+    <string name="key_7">7</string>
+    <string name="key_8">8</string>
+    <string name="key_9">9</string>
+    <string name="key_0">0</string>
+    <string name="key_dot">.</string>
+
+    <string name="key_minus">-</string>
+    <string name="key_plus">+</string>
+    <string name="key_multiply">*</string>
+    <string name="key_divide">/</string>
+    <string name="key_equal">=</string>
+    <string name="key_doCalc">Посчитать</string>
+    <string name="key_doClear">Очистить ввод</string>
+    <string name="calcSomething">Что то посчитаться</string>
+    <string name="calculate">Считать</string>
+</resources>

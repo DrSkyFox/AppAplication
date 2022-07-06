@@ -16,6 +16,7 @@
             android:id="@+id/key_doClear"
             android:text="@string/key_doClear"
             android:layout_columnWeight="1"
+        style="?attr/calcActionButton"
     />
 
     <GridLayout
@@ -45,6 +46,7 @@
             android:id="@+id/key_doCalc"
             android:text="@string/key_doCalc"
             android:layout_columnWeight="1"
+        style="?attr/calcActionButton"
     />
 
 </LinearLayout>

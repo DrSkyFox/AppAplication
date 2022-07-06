@@ -6,7 +6,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import sc.fx.appaplication.R;
 import sc.fx.appaplication.model.CalculateOperation;
+import sc.fx.appaplication.model.ThemeRepositoryImpl;
 import sc.fx.appaplication.model.enums.TypeOperation;
+import sc.fx.appaplication.model.interfaces.ThemeRepository;
 import sc.fx.appaplication.ui.interfaces.ICalculateView;
 import sc.fx.appaplication.ui.presenters.CalculatePresenter;
 
@@ -20,10 +22,15 @@ public class CalculatorActivity extends AppCompatActivity implements ICalculateV
 
     private CalculatePresenter calculatePresenter;
 
+    private ThemeRepository themeRepository;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculator);
+
+        themeRepository = ThemeRepositoryImpl.getInstance(getApplicationContext());
+        setTheme(themeRepository.getSavedTheme().getThemeRes());
 
         resultView = findViewById(R.id.calc_view);
 

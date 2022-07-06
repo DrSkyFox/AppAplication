@@ -1,41 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"
-            android:columnCount="1"
-            android:useDefaultMargins="true"
->
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1"
+    android:useDefaultMargins="true">
 
     <com.google.android.material.button.MaterialButton
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:id="@+id/key_plus"
-            android:text="@string/key_plus"
-            android:layout_columnWeight="1"
-    />
-
-    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_plus"
+        style="?attr/calcOperationButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:id="@+id/key_minus"
-            android:text="@string/key_minus"
-            android:layout_columnWeight="1"
-    />
+        android:layout_columnWeight="1"
+        android:text="@string/key_plus" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_minus"
+        style="?attr/calcOperationButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:id="@+id/key_multiply"
-            android:text="@string/key_multiply"
-            android:layout_columnWeight="1"
-    />
+        android:layout_columnWeight="1"
+        android:text="@string/key_minus" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_multiply"
+        style="?attr/calcOperationButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:id="@+id/key_divide"
-            android:text="@string/key_divide"
-            android:layout_columnWeight="1"
-    />
+        android:layout_columnWeight="1"
+        android:text="@string/key_multiply" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_divide"
+        style="?attr/calcOperationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_divide" />
 
 </GridLayout>

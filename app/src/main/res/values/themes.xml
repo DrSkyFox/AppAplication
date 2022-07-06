@@ -28,6 +28,7 @@
         <item name="calcNumberButton">@style/CalcButton.Number.DarkMode</item>
         <item name="calcOperationButton">@style/CalcButton.Operation.DarkMode</item>
     </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

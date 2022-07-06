@@ -1,35 +1,43 @@
 <resources>
-    <string name="app_name">Hi, dude !</string>
-    <string name="input_text">Input Text:</string>
-    <string name="press_to_be_the_best">To CalculatorActivity</string>
-    <string name="toggle">Toggle</string>
-    <string name="lighting_switch">lighting switch</string>
-    <string name="checkbox_main">CheckBox</string>
-    <string name="radiobutton_main_1">RadioButton</string>
-    <string name="radiobutton_main_2">RadioButton</string>
-    <string name="togglebutton_main">ToggleButton</string>
-    <string name="textview_second">Input U Name</string>
-    <string name="hint_second_page">Enter your name</string>
+    <string name="app_name" translatable="false">Hello</string>
+    <string name="input_text" translatable="false">Entter text</string>
+    <string name="press_to_be_the_best" translatable="false">К калькулятору</string>
+    <string name="toggle" translatable="false">Тугли:)</string>
+    <string name="lighting_switch" translatable="false">Молнейносный свитч)</string>
+    <string name="checkbox_main" translatable="false">Коробчка с чеком</string>
+    <string name="radiobutton_main_1" translatable="false">Радио-батон</string>
+    <string name="radiobutton_main_2" translatable="false">Радио-батон</string>
+    <string name="togglebutton_main" translatable="false">Тугли-батон</string>
+    <string name="textview_second" translatable="false">Введите свое имя</string>
+    <string name="hint_second_page" translatable="false">Enter your name</string>
 
-    <string name="key_1">1</string>
-    <string name="key_2">2</string>
-    <string name="key_3">3</string>
-    <string name="key_4">4</string>
-    <string name="key_5">5</string>
-    <string name="key_6">6</string>
-    <string name="key_7">7</string>
-    <string name="key_8">8</string>
-    <string name="key_9">9</string>
-    <string name="key_0">0</string>
-    <string name="key_dot">.</string>
+    <string name="key_1" translatable="false">1</string>
+    <string name="key_2" translatable="false">2</string>
+    <string name="key_3" translatable="false">3</string>
+    <string name="key_4" translatable="false">4</string>
+    <string name="key_5" translatable="false">5</string>
+    <string name="key_6" translatable="false">6</string>
+    <string name="key_7" translatable="false">7</string>
+    <string name="key_8" translatable="false">8</string>
+    <string name="key_9" translatable="false">9</string>
+    <string name="key_0" translatable="false">0</string>
+    <string name="key_dot" translatable="false">.</string>
 
-    <string name="key_minus">-</string>
-    <string name="key_plus">+</string>
-    <string name="key_multiply">*</string>
-    <string name="key_divide">/</string>
-    <string name="key_equal">=</string>
-    <string name="key_doCalc">calculate</string>
-    <string name="key_doClear">clear input</string>
-    <string name="calcSomething">calc something</string>
-    <string name="calculate">calculate</string>
+    <string name="key_minus" translatable="false">-</string>
+    <string name="key_plus" translatable="false">+</string>
+    <string name="key_multiply" translatable="false">*</string>
+    <string name="key_divide" translatable="false">/</string>
+    <string name="key_equal" translatable="false">=</string>
+    <string name="key_doCalc" translatable="false">calculate</string>
+    <string name="key_doClear" translatable="false">clear input</string>
+    <string name="calcSomething" translatable="false">calc something</string>
+    <string name="calculate" translatable="false">calculate</string>
+
+
+    <string name="theme_1" translatable="false">Theme 1</string>
+    <string name="theme_2" translatable="false">Theme 2</string>
+    <string name="theme_3" translatable="false">Theme 3</string>
+    <string name="select_theme" translatable="false">Select Theme</string>
+    <string name="how_to" translatable="false">How To</string>
+    <string name="key_setTheme" translatable="false">Set Theme</string>
 </resources>

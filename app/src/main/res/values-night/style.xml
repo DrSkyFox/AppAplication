@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CalcButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:fontFamily">@font/custom_font</item>
+        <item name="android:backgroundTint">@color/btn_color</item>
+        <item name="android:textSize">@dimen/btn_calc_text_size</item>
+    </style>
+
+    <style name="CalcButton.Action">
+        <item name="android:backgroundTint">@color/black</item>
+    </style>
+
+    <style name="CalcButton.Number">
+        <item name="android:backgroundTint">@color/dark_green</item>
+    </style>
+
+    <style name="CalcButton.Operator">
+        <item name="android:backgroundTint">@color/btn_color</item>
+    </style>
+
+
+</resources>

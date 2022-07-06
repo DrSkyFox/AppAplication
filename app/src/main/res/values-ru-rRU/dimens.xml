@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="margin_horizontal">8dp</dimen>
+    <dimen name="size_input_filed_calc">100sp</dimen>
+    <dimen name="text_size_main_input">24sp</dimen>
     <color name="color_button">#592B3A</color>
+
+    <dimen name="textSize">20dp</dimen>
+    <dimen name="margin">5dp</dimen>
+
+    <dimen name="btn_calc_text_size">20dp</dimen>
 </resources>

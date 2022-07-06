@@ -15,6 +15,7 @@
             android:layout_marginHorizontal="8dp"
             android:id="@+id/key_doClear"
             android:text="@string/key_doClear"
+            style="?attr/calcActionButton"
             android:layout_columnWeight="1"
     />
 
@@ -45,6 +46,17 @@
             android:id="@+id/key_doCalc"
             android:text="@string/key_doCalc"
             android:layout_columnWeight="1"
+            style="?attr/calcActionButton"
     />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="8dp"
+        android:id="@+id/key_setTheme"
+        android:text="@string/key_setTheme"
+        android:layout_columnWeight="1"
+        style="?attr/calcActionButton"
+        />
 
 </LinearLayout>

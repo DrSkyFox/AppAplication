@@ -76,15 +76,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:id="@+id/switch1"/>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalScrollbarPosition="left">
 
     <CalendarView
             android:id="@+id/calendarView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"/>
-    <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+
         <Button
                 android:text="@string/press_to_be_the_best"
                 android:layout_gravity="center"
@@ -96,6 +98,16 @@
                 android:layout_marginTop="10dp"
                 tools:layout_editor_absoluteX="38dp"
                 tools:ignore="MissingConstraints"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="8dp"
+            android:id="@+id/key_setTheme"
+            android:text="@string/key_setTheme"
+            android:layout_columnWeight="1"
+            style="?attr/calcActionButton"
+            />
     </ScrollView>
 
 </LinearLayout>

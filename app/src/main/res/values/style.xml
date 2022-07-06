@@ -17,6 +17,7 @@
         <item name="colorPrimary">@color/color_button</item>
         <item name="colorPrimaryDark">@color/dark_green</item>
         <item name="colorAccent">@color/color_buttont</item>
+
     </style>
 
 

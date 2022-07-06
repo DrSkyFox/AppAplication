@@ -6,28 +6,32 @@
             android:useDefaultMargins="true"
 >
 
-    <Button android:layout_height="wrap_content"
+    <com.google.android.material.button.MaterialButton
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:id="@+id/key_plus"
             android:text="@string/key_plus"
             android:layout_columnWeight="1"
     />
 
-    <Button android:layout_height="wrap_content"
+    <com.google.android.material.button.MaterialButton
+        android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:id="@+id/key_minus"
             android:text="@string/key_minus"
             android:layout_columnWeight="1"
     />
 
-    <Button android:layout_height="wrap_content"
+    <com.google.android.material.button.MaterialButton
+        android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:id="@+id/key_multiply"
             android:text="@string/key_multiply"
             android:layout_columnWeight="1"
     />
 
-    <Button android:layout_height="wrap_content"
+    <com.google.android.material.button.MaterialButton
+        android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:id="@+id/key_divide"
             android:text="@string/key_divide"

@@ -18,7 +18,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView"
-                android:textSize="24sp"
+                android:textSize="@dimen/text_size_main_input"
                 tools:layout_editor_absoluteX="38dp"
                 tools:ignore="MissingConstraints"/>
 
@@ -92,7 +92,7 @@
                 android:layout_height="50dp"
                 android:id="@+id/buttonCalc" tools:layout_editor_absoluteY="656dp"
                 android:textSize="24sp"
-                android:background="#592B3A"
+                android:background="@color/color_button"
                 android:layout_marginTop="10dp"
                 tools:layout_editor_absoluteX="38dp"
                 tools:ignore="MissingConstraints"/>

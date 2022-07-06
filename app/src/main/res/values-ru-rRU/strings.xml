@@ -33,4 +33,13 @@
     <string name="key_doClear">Очистить ввод</string>
     <string name="calcSomething">Что то посчитаться</string>
     <string name="calculate">Считать</string>
+
+
+    <string name="theme_light">Светлая тема</string>
+    <string name="theme_darkMode">Темная тема</string>
+
+
+    <string name="firstLesson">On First Lesson Activity</string>
+    <string name="setTheme">Setup Theme</string>
+    <string name="how_to">How To</string>
 </resources>

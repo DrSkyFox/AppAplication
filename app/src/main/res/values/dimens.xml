@@ -7,6 +7,9 @@
 
     <dimen name="textSize">20dp</dimen>
     <dimen name="margin">5dp</dimen>
-
+    <dimen name="btn_calc_text_size">20sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="default_padding">10sp</dimen>
+    <dimen name="small_padding">5sp</dimen>
 
 </resources>

@@ -1,12 +1,20 @@
 package sc.fx.appaplication.ui;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import sc.fx.appaplication.R;
 import sc.fx.appaplication.model.CalculateOperation;
+import sc.fx.appaplication.model.ThemeRepositoryImpl;
+import sc.fx.appaplication.model.enums.Theme;
 import sc.fx.appaplication.model.enums.TypeOperation;
+import sc.fx.appaplication.model.interfaces.ThemeRepository;
 import sc.fx.appaplication.ui.interfaces.ICalculateView;
 import sc.fx.appaplication.ui.presenters.CalculatePresenter;
 
@@ -20,6 +28,8 @@ public class CalculatorActivity extends AppCompatActivity implements ICalculateV
 
     private CalculatePresenter calculatePresenter;
 
+    private ThemeRepository themeRepository;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +39,9 @@ public class CalculatorActivity extends AppCompatActivity implements ICalculateV
 
         Map<Integer, Integer> digitsButtonMap = new HashMap<Integer, Integer>();
         digitsMap(digitsButtonMap);
+
+        themeRepository = ThemeRepositoryImpl.getInstance(this);
+        setTheme(themeRepository.getSavedTheme().getThemeRes());
 
 
         calculatePresenter = new CalculatePresenter(this, new CalculateOperation());
@@ -48,6 +61,16 @@ public class CalculatorActivity extends AppCompatActivity implements ICalculateV
         findViewById(R.id.key_doCalc).setOnClickListener(v -> calculatePresenter.onCalcPressed());
 
         findViewById(R.id.key_doClear).setOnClickListener(v -> calculatePresenter.onClearPressed());
+
+
+        ActivityResultLauncher<Intent> themeLauncher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), result -> {
+            if (result.getResultCode() == Activity.RESULT_OK) {
+                Intent intent = result.getData();
+                Theme selectedTheme = (Theme) intent.getSerializableExtra(SelectTheme.EXTRA_THEME);
+                themeRepository.saveTheme(selectedTheme);
+                recreate();
+            }
+        });
 
 
     }

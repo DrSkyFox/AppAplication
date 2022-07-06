@@ -21,9 +21,7 @@ public class MainActivity extends AppCompatActivity {
         EditText editText = findViewById(R.id.input_text_main);
         Button getText = findViewById(R.id.buttonCalc);
         TextView textView = findViewById(R.id.textView);
-        getText.setOnClickListener(v -> {
-            switchActivities();
-        });
+        getText.setOnClickListener(v -> switchActivities());
 
 
 

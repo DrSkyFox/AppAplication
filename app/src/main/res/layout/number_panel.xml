@@ -1,102 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"
-            android:columnCount="3"
-            android:useDefaultMargins="true"
->
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:useDefaultMargins="true">
 
     <com.google.android.material.button.MaterialButton
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:id="@+id/key_1"
-            android:text="@string/key_1"
-            android:layout_columnWeight="1"
-    />
+        android:id="@+id/key_1"
+        style="?attr/calcNumberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_1" />
 
     <com.google.android.material.button.MaterialButton
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:id="@+id/key_2"
-            android:text="@string/key_2"
-            android:layout_columnWeight="1"
-    />
+        android:id="@+id/key_2"
+        style="?attr/calcNumberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_2" />
 
     <com.google.android.material.button.MaterialButton
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:id="@+id/key_3"
-            android:text="@string/key_3"
-            android:layout_columnWeight="1"
-    />
+        android:id="@+id/key_3"
+        style="?attr/calcNumberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_3" />
 
     <com.google.android.material.button.MaterialButton
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:id="@+id/key_4"
-            android:text="@string/key_4"
-            android:layout_columnWeight="1"
-    />
+        android:id="@+id/key_4"
+        style="?attr/calcNumberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_4" />
 
     <com.google.android.material.button.MaterialButton
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:id="@+id/key_5"
-            android:text="@string/key_5"
-            android:layout_columnWeight="1"
-    />
+        android:id="@+id/key_5"
+        style="?attr/calcNumberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_5" />
 
     <com.google.android.material.button.MaterialButton
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:id="@+id/key_6"
-            android:text="@string/key_6"
-            android:layout_columnWeight="1"
-    />
+        android:id="@+id/key_6"
+        style="?attr/calcNumberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_6" />
 
     <com.google.android.material.button.MaterialButton
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:id="@+id/key_7"
-            android:text="@string/key_7"
-            android:layout_columnWeight="1"
-    />
+        android:id="@+id/key_7"
+        style="?attr/calcNumberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_7" />
 
     <com.google.android.material.button.MaterialButton
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:id="@+id/key_8"
-            android:text="@string/key_8"
-            android:layout_columnWeight="1"
-    />
+        android:id="@+id/key_8"
+        style="?attr/calcNumberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_8" />
 
     <com.google.android.material.button.MaterialButton
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:id="@+id/key_9"
-            android:text="@string/key_9"
-            android:layout_columnWeight="1"
-    />
+        android:id="@+id/key_9"
+        style="?attr/calcNumberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_9" />
 
     <com.google.android.material.button.MaterialButton
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:id="@+id/key_0"
-            android:text="@string/key_0"
-            android:layout_columnWeight="2"
-            android:layout_columnSpan="2"
-            android:layout_gravity="fill_horizontal"
-    />
+        android:id="@+id/key_0"
+        style="?attr/calcNumberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="2"
+        android:layout_gravity="fill_horizontal"
+        android:text="@string/key_0" />
 
     <com.google.android.material.button.MaterialButton
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:id="@+id/key_dot"
-            android:text="@string/key_dot"
-            android:layout_columnWeight="1"
-    />
-
-
+        android:id="@+id/key_dot"
+        style="?attr/calcNumberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/key_dot" />
 
 
 </GridLayout>

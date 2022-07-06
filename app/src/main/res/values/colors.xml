@@ -8,5 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="dark_green">#148518</color>
-    <color name="color_buttont">#C0A43C</color>
+    <color name="btn_color">#C0A43C</color>
+
 </resources>
